@@ -1,68 +1,182 @@
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
-
+/* Global styles */
 body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+/* Video styles */
+.video {
+    text-align: center;
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+/* Navbar styles */
+.nevbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222;
+    padding: 10px 20px;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
+.nev {
+    list-style: none;
+    color: white;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.nev:hover {
+    background-color: #444;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.navbar2 {
+    display: flex;
+}
+
+.navbar2 .nev {
+    margin-right: 15px;
+}
+
+/* Disclaimer section */
+.Disclaimer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+    font-size: 16px;
+}
+
+/* Button line section */
+.buttonline {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.regi, .regi2 {
+    width: 48%;
+}
+
+.regi img, .regi2 img {
+    width: 100%;
+    height: auto;
+}
+
+/* Paragraph Section */
+.para1 {
+    padding: 20px;
     background-color: #f9f9f9;
-  }
+    text-align: center;
 }
+
+.para1 p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Section with large image */
+.seltos5 {
+    text-align: center;
+    padding: 20px;
+}
+
+.seltos5 h1 {
+    font-size: 45px;
+}
+
+.p1 {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+/* Design section */
+.design {
+    text-align: center;
+    padding: 20px;
+}
+
+.design2 {
+    text-align: center;
+    padding: 10px;
+}
+
+/* Color section */
+.color {
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.color2 {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.color2 img {
+    margin: 0 5px;
+    border-radius: 50%;
+}
+
+.interior {
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.interior .allback {
+    margin: 10px;
+}
+
+/* Seltos section */
+.carseltos {
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.carseltos img {
+    width: 100%;
+    height: auto;
+}
+
+/* Item text section in the carseltos */
+.item {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.item p {
+    width: 30%;
+    text-align: center;
+}
+
+/* Value section */
+.value {
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+}
+
+/* Final section with images */
+.para2 {
+    text-align: center;
+    padding: 20px;
+}
+
+.para2 h1 {
+    font-size: 45px;
+}
+
+.para2 p {
+    font-size: 20px;
+}
+
+

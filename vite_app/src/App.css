@@ -40,3 +40,108 @@
 .read-the-docs {
   color: #888;
 }
+
+.content {
+  margin-top: 100px;
+ }
+  .price{
+    margin-left: 200px;
+    margin-top:120px ;
+  }
+  .pricestart{
+    margin-top: -154px;
+    margin-left: 770px;
+    color: white;
+  }
+  .Disclaimer{
+    margin-top: 100px;
+    margin-left: 91px;
+  }
+  .regi{
+    margin-left: 235px;
+    margin-top: -59px;
+   
+  }
+  .regi2{
+    margin-left: 932px;
+    margin-top: -446px;
+  }
+  .para1{
+    margin-left: 91px;
+    margin-top: -47px;
+  }
+  .para2{
+    margin-left: 121px;
+  }
+  .seltos5{
+    margin-top: -177px;
+    margin-left: 366px;
+  }
+  .p1{
+    margin-left: -94px;
+  }
+  .design{
+    margin-left: 127px;
+    margin-top: -741px;
+  }
+  .design2{
+    margin-left: 127px;
+    margin-top: -741px;
+  }
+  #ex{
+    margin-left: 382px;
+    margin-top: -30px;
+  }
+  .color{
+margin-top: 705px;
+margin-left: 127px;
+  }
+  .color2{
+   margin-left: 144px;
+
+  }
+  .interior{
+    margin-top: -121px;
+    margin-left:1080px ;
+}
+.allback{
+    margin-left: 321px;
+}
+.carseltos{
+    margin-top: 63px;
+}
+.item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: -89px;
+    margin-left: -325px;
+    font-size: 20px;
+    color: white;
+
+}
+.value{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+   margin-top: -105px;
+   color: white;
+   font-size: 15px;
+}
+.nevbarhr{
+ color: black;
+
+}
+.navbarhr{
+background-color: #ddd;
+color: black;
+}
+hr{
+  width: 100%;
+  color: rgb(19, 7, 110);
+}
+.video{
+  pointer-events:none;
+}
