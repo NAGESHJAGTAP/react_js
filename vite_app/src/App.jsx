@@ -11,7 +11,6 @@ function App() {
     <>
       {
       
-      <video src="https://www.kia.com/content/dam/kia2/in/en/our-vehicles/showroom/selto-teaser/2024/D-1920x1080_Mobile.mp4"  height="25%" width="100%"controls autoplay loop muted  ></video>
 
 
 

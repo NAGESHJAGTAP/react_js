@@ -1,182 +1,141 @@
-/* Global styles */
-body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
+body{
+    margin: 0px;
+    padding: 0px;
 }
 
-/* Video styles */
-.video {
-    text-align: center;
-}
-
-/* Navbar styles */
-.nevbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #222;
-    padding: 10px 20px;
-}
-
-.nev {
-    list-style: none;
-    color: white;
-    padding: 10px 15px;
-    cursor: pointer;
-}
-
-.nev:hover {
-    background-color: #444;
-}
-
-.logo {
-    font-size: 24px;
-    font-weight: bold;
-    color: white;
-}
-
+.nevbar { display: flex; 
+flex-direction: row;
+align-content: flex-start; 
+color: white;
+padding-left: 50px;
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+background-color: black; 
+/* z-index: 1000; */
+ }
+         
 .navbar2 {
-    display: flex;
+display: flex; 
+flex-direction: row;
+justify-content: flex-end;
+margin-left: auto; 
+margin-right: 50px;
 }
-
-.navbar2 .nev {
-    margin-right: 15px;
+.logo {
+margin-left: 188px; 
+font-size: 30px; 
+ } 
+.nev {
+margin: 30px;
+} 
+.content {
+margin-top: 100px;
 }
-
-/* Disclaimer section */
-.Disclaimer {
-    background-color: #f2f2f2;
-    padding: 20px;
-    text-align: center;
-    font-size: 16px;
+.price{
+margin-left: 200px;
+margin-top:120px ;
 }
-
-/* Button line section */
-.buttonline {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
+.pricestart{
+margin-top: -154px;
+margin-left: 770px;
+color: white;
 }
-
-.regi, .regi2 {
-    width: 48%;
+.Disclaimer{
+margin-top: 100px;
+margin-left: 91px;
 }
+.regi{
+margin-left: 235px;
+margin-top: -59px;
 
-.regi img, .regi2 img {
-    width: 100%;
-    height: auto;
 }
-
-/* Paragraph Section */
-.para1 {
-    padding: 20px;
-    background-color: #f9f9f9;
-    text-align: center;
+.regi2{
+margin-left: 932px;
+margin-top: -446px;
 }
-
-.para1 p {
-    font-size: 18px;
-    line-height: 1.6;
+.para1{
+margin-left: 91px;
+margin-top: -47px;
 }
-
-/* Section with large image */
-.seltos5 {
-    text-align: center;
-    padding: 20px;
+.para2{
+margin-left: 121px;
 }
-
-.seltos5 h1 {
-    font-size: 45px;
+.seltos5{
+margin-top: -177px;
+margin-left: 366px;
 }
-
-.p1 {
-    font-size: 35px;
-    font-weight: bold;
+.p1{
+margin-left: -94px;
 }
-
-/* Design section */
-.design {
-    text-align: center;
-    padding: 20px;
+.design{
+margin-left: 127px;
+margin-top: -741px;
 }
-
-.design2 {
-    text-align: center;
-    padding: 10px;
+.design2{
+margin-left: 127px;
+margin-top: -741px;
 }
-
-/* Color section */
-.color {
-    text-align: center;
-    padding: 10px;
-    font-size: 20px;
+#ex{
+margin-left: 382px;
+margin-top: -30px;
 }
-
-.color2 {
-    display: flex;
-    justify-content: center;
-    padding: 10px;
+.color{
+margin-top: 705px;
+margin-left: 127px;
 }
+.color2{
+margin-left: 144px;
 
-.color2 img {
-    margin: 0 5px;
-    border-radius: 50%;
 }
-
-.interior {
-    text-align: center;
-    padding: 10px;
-    font-size: 20px;
+.interior{
+margin-top: -121px;
+margin-left:1080px ;
 }
-
-.interior .allback {
-    margin: 10px;
+.allback{
+margin-left: 321px;
 }
-
-/* Seltos section */
-.carseltos {
-    text-align: center;
-    padding: 20px;
-    background-color: #f9f9f9;
+.carseltos{
+margin-top: 63px;
 }
+.item{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+margin-top: -89px;
+margin-left: -325px;
+font-size: 20px;
+color: white;
 
-.carseltos img {
-    width: 100%;
-    height: auto;
 }
-
-/* Item text section in the carseltos */
-.item {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 20px;
+.value{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+margin-top: -105px;
+color: white;
+font-size: 15px;
 }
+.nevbarhr{
+color: black;
 
-.item p {
-    width: 30%;
-    text-align: center;
 }
-
-/* Value section */
-.value {
-    text-align: center;
-    padding: 20px;
-    font-size: 18px;
+.navbarhr{
+background-color: #ddd;
+color: black;
 }
-
-/* Final section with images */
-.para2 {
-    text-align: center;
-    padding: 20px;
+hr{
+width: 100%;
+color: rgb(19, 7, 110);
 }
-
-.para2 h1 {
-    font-size: 45px;
+.video{
+pointer-events:none;
 }
-
-.para2 p {
-    font-size: 20px;
+.video2{
+pointer-events:none;
 }
 
 
